@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+  </head>
+  <body>
+    <script type="module">
+      import {
+        effect,
+        run,
+        reactive,
+      } from "./packages/reactivity/dist/reactivity.js";
+      effect();
+      run();
+      reactive("测试是否变化");
+    </script>
+    <div>aaa22222222</div>
+  </body>
+</html>

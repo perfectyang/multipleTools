@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../shared/src/index.ts", "../src/effect.ts", "../src/reactive.ts"],
+  "sourcesContent": ["export const isObject = (value) => {\n  return typeof value === \"object\" && value !== null;\n};\n", "import { isObject } from \"@vue/shared\";\n\nexport const effect = () => {\n  console.log(\"aaaa2222a\", isObject({}));\n};\nexport const run = () => {\n  console.log(\"\u5927\u5E05\u54E5\u6CA1\u51FA\u6765\");\n};\n", "export const reactive = (ob) => {\n  console.log(\"ob\", ob);\n};\n"],
+  "mappings": ";AAAO,IAAM,WAAW,CAAC,UAAU;AACjC,SAAO,OAAO,UAAU,YAAY,UAAU;AAChD;;;ACAO,IAAM,SAAS,MAAM;AAC1B,UAAQ,IAAI,aAAa,SAAS,CAAC,CAAC,CAAC;AACvC;AACO,IAAM,MAAM,MAAM;AACvB,UAAQ,IAAI,sCAAQ;AACtB;;;ACPO,IAAM,WAAW,CAAC,OAAO;AAC9B,UAAQ,IAAI,MAAM,EAAE;AACtB;",
+  "names": []
+}
